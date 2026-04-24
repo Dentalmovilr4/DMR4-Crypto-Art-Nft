@@ -1,16 +1,6 @@
 {
-  "name": "DMR4 Crypto Art #001",
-  "symbol": "DMR4",
-  "description": "Colección exclusiva de arte digital creada en el Cesar.",
-  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/tu-imagen.jpg",
-  "attributes": [
-    {
-      "trait_type": "Estilo",
-      "value": "Ciber-Agro"
-    },
-    {
-      "trait_type": "Región",
-      "value": "Cesar"
-    }
-  ]
+  "name": "DMR4 Essence #1",
+  "description": "Estudio lineal de rostro con trazos fluidos. Arte minimalista.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/1.jpg",
+  "attributes": [{ "trait_type": "Estilo", "value": "Line-Art" }]
 }
