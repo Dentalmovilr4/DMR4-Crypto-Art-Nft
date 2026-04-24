@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMR4 Crypto Art Gallery</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+            text-transform: uppercase;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .nft-card {
+            background: #1a1a1a;
+            border: 2px solid #00ffcc;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+            transition: 0.3s;
+        }
+        .nft-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(0, 255, 204, 0.5);
+        }
+        .nft-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: #ff00ff;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DMR4 Crypto Art</h1>
+    <p>Colección Digital Exclusiva - Cesar</p>
+    
+    <div class="gallery">
+        <div class="nft-card">
+            <img src="assets/nfts/tu-imagen.jpg" alt="NFT Art">
+            <h3>Nombre del NFT #001</h3>
+            <span class="price">0.5 SOL</span>
+        </div>
+        
+        </div>
+</body>
+</html>
