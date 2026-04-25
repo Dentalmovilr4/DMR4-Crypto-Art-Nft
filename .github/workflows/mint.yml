@@ -1,0 +1,15 @@
+name: Mint Collection to OpenSea
+on:
+  workflow_dispatch: # Esto permite que tú lo actives manualmente con un botón
+
+jobs:
+  mint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install axios
+      - name: Run Minting Script
+        env:
+          OPENSEA_API_KEY: ${{ secrets.OPENSEA_API_KEY }}
+        run: node mint_collection.js
