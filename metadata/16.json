@@ -1,6 +1,7 @@
 {
-  "name": "The Artist Model",
-  "description": "Representación en carboncillo circulos con sombras de dibujo clásico.",
+  "name": "DMR4 Lunar Cycles",
+  "description": "Representación artística de las fases de la luna en técnica de sombreado.",
   "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/16.jpg",
-  "attributes": [{ "trait_type": "Estilo", "value": "Carboncillo" }]
+  "attributes": [{ "trait_type": "Tema", "value": "Astronomía" }]
 }
+
