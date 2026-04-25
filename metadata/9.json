@@ -1,0 +1,6 @@
+{
+  "name": "The Artist Model",
+  "description": "Representación en carboncillo de un pié de dibujo clásico.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/9.jpg",
+  "attributes": [{ "trait_type": "Estilo", "value": "Carboncillo" }]
+}
