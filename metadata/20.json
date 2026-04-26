@@ -1,0 +1,9 @@
+{
+  "name": "DMR4 Dental Brand Concept",
+  "description": "Obra conceptual que integra la identidad de DMR4 en la estructura dental: un molar con un rostro sonriente y otro con la marca tipográfica.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/20.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Arte Conceptual" },
+    { "trait_type": "Rareza", "value": "Branding" }
+  ]
+}
