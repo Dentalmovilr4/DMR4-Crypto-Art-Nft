@@ -1,0 +1,9 @@
+{
+  "name": "DMR4 Cubist Vision",
+  "description": "Retrato expresivo con influencia cubista, utilizando bloques de color vibrantes y líneas audaces.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/18.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Cubismo" },
+    { "trait_type": "Rareza", "value": "Único" }
+  ]
+}
