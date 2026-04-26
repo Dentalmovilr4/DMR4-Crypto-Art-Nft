@@ -1,0 +1,9 @@
+{
+  "name": "Digital Molar Duo",
+  "description": "Ilustración digital limpia y estilizada de dos molares, destacando la oclusión y la morfología dental.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/19.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Ilustración Digital" },
+    { "trait_type": "Tema", "value": "Anatomía" }
+  ]
+}
