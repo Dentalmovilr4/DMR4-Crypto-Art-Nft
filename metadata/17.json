@@ -1,0 +1,9 @@
+{
+  "name": "DMR4 Molar Study",
+  "description": "Estudio anatómico detallado de un primer molar inferior, realizado con técnica de sombreado realista en carboncillo.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/17.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Realismo" },
+    { "trait_type": "Tema", "value": "Odontología" }
+  ]
+}
