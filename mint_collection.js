@@ -2,7 +2,7 @@ const axios = require('axios');
 
 // Configuración principal
 const API_KEY = process.env.OPENSEA_API_KEY;
-const TOTAL_NFTS = 16;
+const TOTAL_NFTS = 22;
 const REPO_OWNER = "Dentalmovilr4";
 const REPO_NAME = "DMR4-Crypto-Art-Nft";
 
