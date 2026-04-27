@@ -1,0 +1,10 @@
+{
+  "name": "Otaku Bitcoin",
+  "description": "Ilustración digital de una moneda de oro de Bitcoin con una expresión facial estilo anime (ojos rasgados y cejas marcadas), rodeada de rayos y llamas. Una fusión única de la cultura cripto y la estética del manga y anime.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/22.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Ilustración Digital Anime" },
+    { "trait_type": "Tema", "value": "Bitcoin / Otaku Culture" },
+    { "trait_type": "Rareza", "value": "Branding" }
+  ]
+}
