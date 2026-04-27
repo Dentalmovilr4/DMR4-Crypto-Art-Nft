@@ -24,8 +24,33 @@
         .subtitle {
             color: #ff00e5;
             text-shadow: 0 0 10px #ff00e5;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-weight: bold;
+        }
+        /* Estilo para el botón de billetera */
+        .wallet-btn {
+            background: transparent;
+            color: #00f2ff;
+            border: 2px solid #00f2ff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(0, 242, 255, 0.3);
+            transition: 0.3s;
+            margin-bottom: 30px;
+        }
+        .wallet-btn:hover {
+            background: #00f2ff;
+            color: #050505;
+            box-shadow: 0 0 20px #00f2ff;
+        }
+        #wallet-address {
+            font-size: 0.8rem;
+            color: #ff00e5;
+            margin-bottom: 20px;
+            word-break: break-all;
+            max-width: 300px;
         }
         #nft-container {
             display: grid;
@@ -80,34 +105,57 @@
     <h1>DMR4 Crypto Art</h1>
     <div class="subtitle">NFT Collection - Cesar</div>
 
-    <div id="nft-container">
-        </div>
+    <button class="wallet-btn" id="connectWallet">CONECTAR BILLETERA</button>
+    <div id="wallet-address"></div>
+
+    <div id="nft-container"></div>
 
     <script>
-        // Configuración: Define cuántos NFTs tienes planeado mostrar
-        const totalNFTs = 22; // Cambia este número según cuántos archivos .json tengas
+        // Configuración de Billetera
+        const connectBtn = document.getElementById('connectWallet');
+        const walletDisplay = document.getElementById('wallet-address');
+        
+        // Tu billetera de DMR4 Coin (Solana)
+        const dmr4Wallet = "3CThGZU6DA6CdRMeYqnW12rtpudL9TgQPFT7qqu4NJ84";
+
+        connectBtn.addEventListener('click', async () => {
+            if (window.solana && window.solana.isPhantom) {
+                try {
+                    const resp = await window.solana.connect();
+                    walletDisplay.innerHTML = "Conectado: " + resp.publicKey.toString().substring(0, 6) + "..." + resp.publicKey.toString().substring(38);
+                    connectBtn.innerHTML = "BILLETERA VINCULADA";
+                } catch (err) {
+                    console.log("Conexión cancelada");
+                }
+            } else {
+                // Si no hay billetera, mostramos tu dirección para soporte/donaciones
+                walletDisplay.innerHTML = "Billetera DMR4 (SOL): <br>" + dmr4Wallet;
+                alert("Instala Phantom Wallet para conectar, o usa la dirección en pantalla.");
+            }
+        });
+
+        // Configuración de carga de NFTs
+        const totalNFTs = 22; 
         const container = document.getElementById('nft-container');
 
         async function loadNFTs() {
             for (let i = 1; i <= totalNFTs; i++) {
                 try {
-                    // Ruta a tus archivos JSON en el repositorio
                     const response = await fetch(`metadata/${i}.json`);
                     if (!response.ok) continue;
-                    
+
                     const data = await response.json();
 
-                    // Crear la tarjeta visual
                     const card = document.createElement('div');
                     card.className = 'nft-card';
-                    
+
                     card.innerHTML = `
                         <img src="${data.image}" alt="${data.name}" onerror="this.src='https://via.placeholder.com/300?text=Cargando+Arte...'">
                         <h3>${data.name}</h3>
                         <p>${data.description}</p>
                         <div class="tag">${data.attributes[0]?.value || 'DMR4 Original'}</div>
                     `;
-                    
+
                     container.appendChild(card);
                 } catch (error) {
                     console.log("Error cargando el NFT " + i, error);
