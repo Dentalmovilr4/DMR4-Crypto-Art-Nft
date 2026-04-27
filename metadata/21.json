@@ -1,0 +1,10 @@
+{
+  "name": "Meme Coín Flor",
+  "description": "Obra de arte físico texturizado en relieve sobre fondo negro, que representa una flor metálica. Incluye el concepto 'Meme Coin Flor' y una nota sobre la 'Inversión Rural' como nueva tendencia cripto. Fusiona la naturaleza con la economía digital.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/21.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Arte Físico Texturizado" },
+    { "trait_type": "Tema", "value": "Cripto-Agricultura" },
+    { "trait_type": "Rareza", "value": "Único" }
+  ]
+}
