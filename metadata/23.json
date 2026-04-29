@@ -1,0 +1,10 @@
+{
+  "name": "DMR4 Vallenato Sketch",
+  "description": "Boceto tradicional a lápiz sobre papel, con un estilo realista y sombreado, que representa la tríada vallenata: acordeón, caja y guacharaca (implícita en el conjunto), coronada por un sombrero vueltiao. Incluye la firma 'Dmr4'. Una oda al folclore del Cesar.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/23.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Sketch a Lápiz" },
+    { "trait_type": "Tema", "value": "Folclore Vallenato" },
+    { "trait_type": "Región", "value": "Cesar, Colombia" }
+  ]
+}
