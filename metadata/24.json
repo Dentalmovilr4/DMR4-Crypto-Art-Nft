@@ -1,0 +1,10 @@
+{
+  "name": "DMR4 Vallenato Digital",
+  "description": "Ilustración digital vibrante y detallada de la escena vallenata (acordeón, caja y sombrero vueltiao) sobre una tarima de madera en un ambiente festivo con luces y público de fondo. Incluye la firma tipográfica 'DMR4' con efecto neón. Una representación moderna y enérgica de la cultura vallenata.",
+  "image": "https://raw.githubusercontent.com/Dentalmovilr4/DMR4-Crypto-Art-Nft/main/assets/nfts/24.png",
+  "attributes": [
+    { "trait_type": "Estilo", "value": "Ilustración Digital Vibrante" },
+    { "trait_type": "Tema", "value": "Folclore Vallenato / Festival" },
+    { "trait_type": "Región", "value": "Cesar, Colombia" }
+  ]
+}
